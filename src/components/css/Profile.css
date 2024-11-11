@@ -9,3 +9,19 @@
   margin-top: 10px;
   object-fit: cover; /* Menjaga proporsi gambar saat berubah bentuk */
 }
+
+/* Responsif untuk layar lebih kecil (smartphone) */
+@media (max-width: 768px) {
+  .profile-picture {
+    width: 300px; /* Ukuran gambar lebih kecil di smartphone */
+    height: 300px; /* Menyesuaikan ukuran gambar */
+  }
+}
+
+/* Responsif untuk layar yang lebih kecil lagi (misalnya, untuk ponsel lebih kecil) */
+@media (max-width: 480px) {
+  .profile-picture {
+    width: 200px; /* Ukuran gambar lebih kecil lagi untuk ponsel kecil */
+    height: 200px;
+  }
+}
