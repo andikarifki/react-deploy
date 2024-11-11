@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/Header.css"; // Mengimpor CSS dari folder yang sama
 import "./css/Profile.css";
-import profilePicture from "../assets/images/profile.jpg"; // Naik satu level ke src
+import profilePicture from "../assets/images/profiles.jpg"; // Naik satu level ke src
 import Icon from "./Icon";
 import "./css/About.css";
 
