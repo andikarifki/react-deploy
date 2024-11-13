@@ -1,21 +1,70 @@
-/* Icon.css */
-
-/* Container for the icons */
+/* Container untuk ikon */
 .icon-container {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  gap: 10px; /* Space between icons */
-  margin-top: 40px;
+  flex-direction: column;
+  align-items: center; /* Center secara vertikal */
+  justify-content: center; /* Center secara horizontal */
+  padding: 80px;
+  background-color: #272626; /* Change to your desired color */
+
 }
 
-/* General icon styling */
+/* Styling umum untuk ikon */
 .icon {
-  text-decoration: none; /* Remove underline */
-  transition: transform 0.3s ease-in-out; /* Smooth hover animation */
+  text-decoration: none; /* Menghapus underline */
+  transition: transform 0.3s ease-in-out; /* Animasi smooth saat hover */
+  color: white; /* Warna ikon putih */
 }
 
-/* Hover effect for both icons */
+/* Styling khusus untuk ikon GitHub */
+.github-icon a {
+  display: inline-block; /* Menyusun ikon dalam blok */
+  border: 2px solid #333; /* Border gelap di sekitar ikon */
+  border-radius: 50%; /* Membuat border melingkar mengikuti bentuk ikon */
+  padding: 8px; /* Ruang di sekitar ikon */
+  transition: border 0.3s ease-in-out; /* Efek transisi border */
+}
+
+/* Hover effect untuk GitHub */
+.github-icon a:hover {
+  border-color: #0077b5; /* Mengubah warna border saat hover */
+}
+
+/* Hover effect untuk semua ikon */
 .icon:hover {
-  transform: scale(1.2); /* Zoom effect on hover */
+  transform: scale(1.5); /* Efek zoom pada ikon saat hover */
+}
+
+/* Styling heading */
+.heading-icon {
+  display: flex;
+  justify-content: center; /* Center secara horizontal */
+  align-items: center; /* Center secara vertikal */
+  font-size: 24px; /* Ukuran font default */
+  margin-bottom: 20px; /* Jarak antara heading dan ikon */
+  color: aliceblue;
+}
+
+/* Media query untuk perangkat dengan lebar maksimal 600px (smartphone) */
+@media (max-width: 600px) {
+  .heading-icon {
+    font-size: 18px; /* Ukuran font lebih kecil di layar kecil */
+    margin-bottom: 15px; /* Mengurangi jarak antara heading dan ikon */
+  }
+}
+
+/* Media query untuk perangkat dengan lebar maksimal 400px (layar kecil seperti ponsel) */
+@media (max-width: 400px) {
+  .heading-icon {
+    font-size: 16px; /* Ukuran font lebih kecil lagi di layar sangat kecil */
+    margin-bottom: 10px; /* Jarak antara heading dan ikon lebih kecil */
+  }
+}
+
+/* Container untuk ikon-ikon dengan jarak antar ikon */
+.icon-links-container {
+  display: flex;
+  gap: 15px; /* Jarak antar ikon */
+  justify-content: center; /* Membuat ikon-ikon berbaris di tengah */
+  align-items: center; /* Memastikan ikon-ikon tetap terpusat vertikal */
 }

@@ -5,7 +5,7 @@ import profilePicture from "../assets/images/profiles.jpg"; // Naik satu level k
 import Icon from "./Icon";
 import "./css/About.css";
 
-function Header() {
+function Homepage() {
   return (
     <>
       <header className="header">
@@ -32,4 +32,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Homepage;
