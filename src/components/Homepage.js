@@ -16,7 +16,7 @@ function Homepage() {
         <h2 className="heading-position">Frontend Developer</h2>
         <section className="section-link">
           <a
-            href="/cv-1.pdf" // Ganti dengan path ke file PDF Anda
+            href="/CV.pdf" // Path menuju file CV di folder public
             download // Menyatakan bahwa file ini adalah untuk diunduh
             className="link-pdf"
           >
