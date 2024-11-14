@@ -3,8 +3,7 @@ import "./css/Header.css"; // Mengimpor CSS dari folder yang sama
 import "./css/Profile.css";
 import profilePicture from "../assets/images/profiles.jpg"; // Naik satu level ke src
 import Icon from "./Icon";
-import "./css/About.css";
-import { FaTelegram } from "react-icons/fa";
+import About from "./About";
 
 function Homepage() {
   return (
@@ -12,27 +11,7 @@ function Homepage() {
       <header className="header">
         <h1 className="heading-header">Hallo i'm</h1>
       </header>
-      <div className="about">
-        <h1 className="heading-name">Andika Rifqi Istanto</h1>
-        <h2 className="heading-position">Frontend Developer</h2>
-        <div className="link-container">
-          <a
-            href="https://andikarifki.github.io/react-deploy/CV.pdf"
-            download
-            className="link-pdf"
-          >
-            Download CV
-          </a>
-          <a
-            href="https://t.me/Andikarifki18" // Ganti dengan username Telegram Anda
-            target="_blank"
-            rel="noopener noreferrer"
-            className="link-telegram"
-          >
-            Contact Me <FaTelegram size={28} style={{ marginLeft: "5px" }} />
-          </a>
-        </div>
-      </div>
+      <About />
       <div className="profile">
         <img src={profilePicture} alt="Profile" className="profile-picture" />
         <Icon />
