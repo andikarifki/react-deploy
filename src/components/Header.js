@@ -1,5 +1,6 @@
 import React from "react";
-import "./css/Header.css"; // Mengimpor CSS dari folder yang sama
+import "./css/Header.css";
+import "./css/Homepage.css";
 
 const Header = () => {
   return (
