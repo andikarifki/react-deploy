@@ -1,3 +1,23 @@
 body, html {
-    background-color: #272626;
+  height: 100%; /* Pastikan body dan html mengisi seluruh layar */
+  background: linear-gradient(to bottom, #272626, #4b4b4b); /* Gradasi dari #272626 ke #4b4b4b */
+  margin: 0; /* Menghilangkan margin default */
+  font-family: Arial, sans-serif; /* Font yang responsif */
+  color: white; /* Pastikan teks berwarna putih agar kontras dengan latar belakang gelap */
+}
+
+/* Media query untuk perangkat dengan lebar maksimal 600px (smartphone) */
+@media (max-width: 600px) {
+  body, html {
+    /* Menyesuaikan gradasi agar lebih smooth di layar kecil */
+    background: radial-gradient(circle, #272626, #4b4b4b); /* Gradasi melingkar dari tengah */
   }
+}
+
+/* Media query untuk perangkat dengan lebar maksimal 400px (layar kecil seperti ponsel) */
+@media (max-width: 400px) {
+  body, html {
+    /* Menambahkan penyesuaian lebih lanjut jika diperlukan */
+    background: radial-gradient(circle, #272626, #4b4b4b); /* Gradasi melingkar dari tengah */
+  }
+}

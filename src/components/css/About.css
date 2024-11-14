@@ -1,5 +1,4 @@
 .about {
-  background-color: #272626; /* Change to your desired color */
   padding: 20px; /* Optional: Add some padding */
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Stack children vertically */
