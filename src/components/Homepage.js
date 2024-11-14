@@ -16,8 +16,8 @@ function Homepage() {
         <h2 className="heading-position">Frontend Developer</h2>
         <section className="section-link">
           <a
-            href={`${process.env.PUBLIC_URL}/cv-1.pdf`}
-            download
+            href="/cv-1.pdf" // Path menuju file CV di folder public
+            download // Menyatakan bahwa file ini adalah untuk diunduh
             className="link-pdf"
           >
             Download CV
