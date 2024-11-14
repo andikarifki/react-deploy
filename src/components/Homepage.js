@@ -15,7 +15,7 @@ function Homepage() {
         <h1 className="heading-name">Andika Rifqi Istanto</h1>
         <h2 className="heading-position">Frontend Developer</h2>
         <a
-          href="/CV.pdf" // Pastikan file PDF berada di folder public
+          href="https://andikarifki.github.io/react-deploy/CV.pdf" // Pastikan file PDF berada di folder public
           download
           className="link-pdf"
         >
