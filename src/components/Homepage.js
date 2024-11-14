@@ -15,8 +15,8 @@ function Homepage() {
         <h1 className="heading-name">Andika Rifqi Istanto</h1>
         <h2 className="heading-position">Frontend Developer</h2>
         <a
-          href="/CV.pdf" // Path menuju file CV di folder public
-          download // Menyatakan bahwa file ini adalah untuk diunduh
+          href="/CV.pdf" // Pastikan file PDF berada di folder public
+          download
           className="link-pdf"
         >
           Download CV
