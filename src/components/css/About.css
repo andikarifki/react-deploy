@@ -18,11 +18,6 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.section-link {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
 .heading-position {
   color: rgb(199, 221, 221);
   display: flex; /* Enable flexbox */
@@ -50,13 +45,4 @@
 .link-pdf:hover {
   background-color: #007bff; /* Warna latar belakang saat hover */
   color: white; /* Warna teks saat hover */
-}
-
-.link-contact {
-  background-color: goldenrod;
-  border: 1px solid #000; /* Tambahkan border jika diperlukan */
-  color: #000; /* Warna teks */
-  padding: 10px 20px;
-  cursor: pointer;
-  margin-right: 10px; /* Jarak antar tombol */
 }
