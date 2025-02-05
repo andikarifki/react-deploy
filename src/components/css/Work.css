@@ -10,4 +10,30 @@
   .work {
     margin-top: 8px; /* Memberikan sedikit jarak antara elemen */
   }
+
+  @media (max-width: 1024px) {
+    .list-work {
+      padding: 0 60px; /* Kurangi padding untuk layar tablet */
+      padding-top: 40px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .list-work {
+      padding: 0 30px; /* Kurangi padding lebih kecil */
+      padding-top: 30px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .list-work {
+      padding: 0 15px; /* Sesuaikan untuk layar kecil */
+      padding-top: 20px;
+      align-items: center; /* Tengah untuk layar kecil */
+      text-align: left;
+    }
+    .work{
+      font-size: 10px;
+    }
+  }
   

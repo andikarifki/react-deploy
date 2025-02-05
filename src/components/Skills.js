@@ -30,7 +30,7 @@ const Skills = () => {
         <FaLaravel size={100} color="rgb(255, 0, 0)" />
         <FaPhp size={100} color="rgb(2, 59, 245)" />
         <FaGitlab size={100} color="rgb(250, 134, 38)" />
-        <img src={postmanLogo} alt="Postman Icon" width={100} height={100} />
+        <img src={postmanLogo} alt="Postman Icon" className="postman-icon" />
         <FaFigma size={100} color="blue" />
       </div>
     </div>

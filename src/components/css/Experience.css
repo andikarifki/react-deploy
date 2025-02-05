@@ -15,5 +15,39 @@
     gap: 30px; /* Menambahkan jarak antar ikon */
     margin-bottom: 3    0px; /* Memberikan jarak antara dua baris ikon */
   }
+
+  .postman-icon {
+    width: 90px; /* Sesuaikan ukuran */
+    height: 90px;
+    object-fit: contain; /* Pastikan gambar tidak terdistorsi */
+  }
   
   
+  /* RESPONSIVE */
+@media (max-width: 768px) {
+  .icons {
+      gap: 15px; /* Kurangi jarak ikon agar tidak terlalu melebar */
+      flex-wrap: nowrap; /* Tetap dalam satu baris */
+  }
+}
+
+@media (max-width: 480px) {
+  .icons {
+      gap: 10px; /* Lebih kecil agar cukup dalam satu baris */
+      overflow-x: auto; /* Tambahkan scroll horizontal jika perlu */
+      white-space: nowrap; /* Pastikan ikon tetap dalam satu baris */
+      padding: 10px 0;
+  }
+  
+  /* Pastikan ikon lebih kecil di layar kecil */
+  .icons svg {
+      width: 50px;
+      height: 50px;
+  }
+
+  .postman-icon {
+    width: 50px; /* Sesuaikan ukuran */
+    height: 50px;
+    object-fit: contain; /* Pastikan gambar tidak terdistorsi */
+  }
+}
