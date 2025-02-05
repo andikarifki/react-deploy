@@ -1,46 +1,63 @@
 .about {
-  padding: 20px; /* Optional: Add some padding */
-  display: flex; /* Enable flexbox */
-  flex-direction: column; /* Stack children vertically */
-  align-items: center; /* Center horizontally */
+  display: flex;
+  align-items: center; /* Pusatkan elemen secara vertikal */
+  justify-content: space-between; /* Buat jarak maksimal antara teks & foto */
+  gap: 50px; /* Beri jarak antara teks dan foto */
+  height: 50vh; /* Pastikan section memenuhi tinggi layar */
+  text-align: left; /* Pastikan teks tetap rata kiri */
 }
 
-.heading-name {
-  color: white;
+.about .name {
+  flex: 1; /* Biar teks memenuhi ruang yang tersedia */
+  text-align: left; /* Pastikan teks rata kiri */
+}
+
+.text-container {
+  flex: 1; /* Agar teks memenuhi ruang yang tersedia */
+  text-align: left; /* Pastikan teks rata kiri */
+  padding-left: 80px;
+}
+
+.name {
+  color: rgb(0, 0, 0);
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Stack children vertically */
-  align-items: center; /* Center horizontally */
-  font-size: 50px;
+  align-items: flex-start; /* Pindahkan ke kiri */
+  text-align: left; /* Pastikan teks juga rata kiri */
   position: relative;
   margin-top: 30px;
-  margin-bottom: 00px;
+  margin-bottom: 0px;
+  padding-left: 40px; /* Beri padding agar tidak terlalu mepet */
+}
+
+.new-line {
+  display: block; /* Memastikan teks turun ke baris baru */
+  font-size: 50px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.heading-position {
-  color: rgb(199, 221, 221);
-  display: flex; /* Enable flexbox */
-  flex-direction: column; /* Stack children vertically */
-  align-items: center; /* Center horizontally */
-  font-size: 20px;
-  position: relative;
-  font-family: "Times New Roman", Times, serif;
-  margin-top: 40px;
+.new-line-2 {
+  display: block; /* Memastikan teks turun ke baris baru */
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.new-paragraph {
+  display: block;
 }
 
 /* Container untuk link agar berdampingan */
 .link-container {
   display: flex;
-  justify-content: center; /* Agar link berada di tengah secara horizontal */
+  padding: 0 40px;
   gap: 10px; /* Jarak antara kedua link */
   margin-top: 30px; /* Tambahan jarak atas */
 }
 
 /* CSS untuk link-pdf */
 .link-pdf {
-  background-color: transparent;
-  border: 2px solid red;
-  color: red;
+  background-color: red;
+  color: rgb(255, 255, 255);
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -50,8 +67,8 @@
 
 /* CSS saat link-pdf di-hover */
 .link-pdf:hover {
-  background-color: red;
-  color: white;
+  background-color: rgb(236, 139, 139);
+  color: rgb(255, 255, 255);
 }
 
 /* CSS untuk link-telegram */

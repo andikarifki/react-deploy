@@ -1,0 +1,19 @@
+.experience {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column; /* Susun elemen secara vertikal */
+    justify-content: center; /* Pusatkan secara vertikal */
+    align-items: center; /* Pusatkan secara horizontal */
+    text-align: center; /* Memastikan teks terpusat */
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: row; /* Susun ikon secara horizontal */
+    justify-content: center; /* Pusatkan ikon secara horizontal */
+    align-items: center; /* Pusatkan ikon secara vertikal */
+    gap: 30px; /* Menambahkan jarak antar ikon */
+    margin-bottom: 30px; /* Memberikan jarak antara dua baris ikon */
+  }
+  
+  
