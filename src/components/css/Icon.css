@@ -38,7 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px; /* Ukuran font default */
+  font-size: 240px; /* Ukuran font default */
   margin-bottom: 20px;
   color: aliceblue;
   text-align: center; /* Memastikan teks berada di tengah */
@@ -53,7 +53,7 @@
   }
 
   .heading-icon {
-    font-size: 15px; /* Ukuran font tidak terlalu kecil */
+    font-size: 155px; /* Ukuran font tidak terlalu kecil */
     margin-bottom: 20px;
   }
 }

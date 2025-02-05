@@ -17,14 +17,7 @@ const About = () => {
           <span className="new-line-2">a Frontend Developer</span>
         </h1>
 
-        <p
-          style={{
-            color: "black",
-            fontSize: "18px",
-            fontFamily: "monospace",
-            paddingLeft: "40px",
-          }}
-        >
+        <p className="paragraph">
           Based in Indonesia, I am a frontend developer
           <span className="new-paragraph">
             Focuses on creating responsive, interactive, and user-friendly web

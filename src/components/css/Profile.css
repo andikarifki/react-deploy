@@ -6,7 +6,7 @@
 }
 
 .profile-picture {
-  border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+  border-radius: 500%; /* Membuat gambar berbentuk lingkaran */
   width: 450px; /* Atur lebar gambar */
   height: 480px; /* Sesuaikan tinggi gambar agar sama dengan lebar */
   object-fit: cover; /* Menjaga proporsi gambar saat berubah bentuk */
@@ -14,16 +14,7 @@
 
 /* Responsif untuk layar lebih kecil (smartphone) */
 @media (max-width: 768px) {
-  .profile-picture {
-    width: 300px; /* Ukuran gambar lebih kecil di smartphone */
-    height: 300px; /* Menyesuaikan ukuran gambar */
+  .profile {
+    padding: 0%;
   }
-}
-
-/* Responsif untuk layar yang lebih kecil lagi (misalnya, untuk ponsel lebih kecil) */
-@media (max-width: 480px) {
-  .profile-picture {
-    width: 200px; /* Ukuran gambar lebih kecil lagi untuk ponsel kecil */
-    height: 200px;
-  }
-}
+} 
