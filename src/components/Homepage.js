@@ -3,6 +3,8 @@ import About from "./About";
 import Header from "./Header";
 import "./css/Homepage.css"; // Mengimpor CSS dari folder yang sama
 import Skills from "./Skills";
+import Work from "./Work";
+import Footer from "./Footer";
 
 function Homepage() {
   return (
@@ -10,6 +12,8 @@ function Homepage() {
       <Header />
       <About />
       <Skills />
+      <Work />
+      <Footer />
     </>
   );
 }

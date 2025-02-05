@@ -1,0 +1,13 @@
+.list-work {
+    display: flex;
+    justify-content: flex-start; /* Rata kiri secara horizontal */
+    align-items: flex-start; /* Rata atas secara vertikal */
+    padding: 0 120px;
+    padding-top: 50px;
+    flex-direction: column; /* Menyusun elemen secara vertikal (ke bawah) */
+  }
+
+  .work {
+    margin-top: 8px; /* Memberikan sedikit jarak antara elemen */
+  }
+  
