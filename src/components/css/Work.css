@@ -9,6 +9,7 @@
 
   .work {
     margin-top: 8px; /* Memberikan sedikit jarak antara elemen */
+    font-size: small;
   }
 
   @media (max-width: 1024px) {

@@ -8,7 +8,13 @@ const Work = () => {
         Work Experience
       </h1>
       <div className="work">
-        <div style={{ marginTop: "10px" }}>
+        <div
+          style={{
+            marginTop: "10px",
+            borderLeft: "5px solid gray",
+            paddingLeft: "10px",
+          }}
+        >
           <h2
             style={{
               color: "black",
@@ -30,7 +36,13 @@ const Work = () => {
             2023 - 2024
           </h2>
         </div>
-        <div style={{ marginTop: "30px" }}>
+        <div
+          style={{
+            marginTop: "20px",
+            borderLeft: "5px solid gray",
+            paddingLeft: "10px",
+          }}
+        >
           <h2
             style={{
               color: "black",
@@ -53,7 +65,13 @@ const Work = () => {
           </h2>
         </div>
 
-        <div style={{ marginTop: "30px" }}>
+        <div
+          style={{
+            marginTop: "20px",
+            borderLeft: "5px solid gray",
+            paddingLeft: "10px",
+          }}
+        >
           <h2
             style={{
               color: "black",
