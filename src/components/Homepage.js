@@ -5,6 +5,7 @@ import "./css/Homepage.css"; // Mengimpor CSS dari folder yang sama
 import Skills from "./Skills";
 import Work from "./Work";
 import Footer from "./Footer";
+import Portfolio from "./Portofolio";
 
 function Homepage() {
   return (
@@ -12,6 +13,7 @@ function Homepage() {
       <Header />
       <About />
       <Skills />
+      <Portfolio />
       <Work />
       <Footer />
     </>
