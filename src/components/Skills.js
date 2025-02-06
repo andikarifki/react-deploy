@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import postmanLogo from "../assets/images/postman.png";
 import {
   FaHtml5,
@@ -12,15 +12,28 @@ import {
   FaGitlab,
   FaFigma,
 } from "react-icons/fa";
+import AOS from "aos"; // Import AOS untuk animasi
+import "aos/dist/aos.css";
 
 const Skills = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Inisialisasi AOS dengan durasi animasi 1 detik
+  }, []);
+
   return (
     <div className="container py-5">
       {/* Judul */}
-      <h1 className="text-center text-dark mb-5 pb-4">My Skills</h1>
+      <h1 className="text-center text-dark mb-5 pb-4" data-aos="flip-up">
+        My Skills
+      </h1>
 
       {/* Grid untuk Ikon */}
-      <div className="row justify-content-center gap-4">
+      <div
+        className="row justify-content-center gap-4"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         {/* Baris Ikon */}
         <div className="col-4 col-md-3 col-lg-2 text-center">
           <FaHtml5 size={70} color="orange" />

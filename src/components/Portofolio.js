@@ -1,9 +1,18 @@
-import React from "react";
-import { FaGithub } from "react-icons/fa";
+import React, { useEffect } from "react";
+import AOS from "aos"; // Import AOS untuk animasi
+import "aos/dist/aos.css";
 
 const Repository = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Inisialisasi AOS dengan durasi animasi 1 detik
+  }, []);
+
   return (
-    <div className="container text-center py-5">
+    <div
+      className="container text-center py-5"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <h2 className="fw-bold text-dark">My GitHub Repositories</h2>
       <p className="text-muted">Explore my latest repositories on GitHub!</p>
       <div className="row justify-content-center">
