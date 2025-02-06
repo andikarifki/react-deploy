@@ -7,8 +7,8 @@ const Repository = () => {
       <h2 className="fw-bold text-dark">My GitHub Repositories</h2>
       <p className="text-muted">Explore my latest repositories on GitHub!</p>
       <div className="row justify-content-center">
-        <div className="col-md-5">
-          <div className="card">
+        <div className="col-12 col-md-5 mb-4">
+          <div className="card h-100">
             <div className="card-body text-center">
               <h5 className="card-title">Repository 1</h5>
               <a
@@ -22,8 +22,8 @@ const Repository = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-5">
-          <div className="card">
+        <div className="col-12 col-md-5 mb-4">
+          <div className="card h-100">
             <div className="card-body text-center">
               <h5 className="card-title">Repository 2</h5>
               <a
