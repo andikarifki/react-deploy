@@ -37,7 +37,7 @@ export default function Icon() {
       </div>
       <div className="icon">
         <a
-          href="https://www.instagram.com/andikarifqi18/"
+          href="https://web.facebook.com/andika.rifqi/"
           target="_blank"
           rel="noopener noreferrer"
           className="facebook-icon"
