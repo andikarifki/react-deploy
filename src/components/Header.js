@@ -5,9 +5,14 @@ import Icon from "./Icon";
 
 const Header = () => {
   return (
-    <header className="header">
-      <h1 className="heading-name">Andika</h1>
-      <Icon className="icon-right" />
+    <header className="container-fluid bg-light py-3">
+      <div className="container d-flex justify-content-between align-items-center">
+        {/* Nama di Kiri */}
+        <h1 className="fw-bold m-0 text-dark">Andika</h1>
+
+        {/* Icon di Kanan */}
+        <Icon className="icon-right" />
+      </div>
     </header>
   );
 };

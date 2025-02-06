@@ -1,40 +1,25 @@
-.list-work {
-    display: flex;
-    justify-content: flex-start; /* Rata kiri secara horizontal */
-    align-items: flex-start; /* Rata atas secara vertikal */
-    padding: 0 120px;
-    padding-top: 50px;
-    flex-direction: column; /* Menyusun elemen secara vertikal (ke bawah) */
-  }
+.custom-heading {
+  font-family: "Poppins", sans-serif; /* Gunakan font modern */
+  font-size: 1.8rem; /* Sesuaikan ukuran */
+  font-weight: bold;
+  color: #3b3b3b; /* Warna menarik */
+  text-transform: uppercase; /* Huruf besar semua */
+  letter-spacing: 1.5px; /* Spasi antar huruf */
+}
 
-  .work {
-    margin-top: 8px; /* Memberikan sedikit jarak antara elemen */
-    font-size: small;
-  }
+.work-title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 8px;
+}
 
-  @media (max-width: 1024px) {
-    .list-work {
-      padding: 0 60px; /* Kurangi padding untuk layar tablet */
-      padding-top: 40px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .list-work {
-      padding: 0 30px; /* Kurangi padding lebih kecil */
-      padding-top: 30px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .list-work {
-      padding: 0 15px; /* Sesuaikan untuk layar kecil */
-      padding-top: 20px;
-      align-items: center; /* Tengah untuk layar kecil */
-      text-align: left;
-    }
-    .work{
-      font-size: 10px;
-    }
-  }
-  
+.work-title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
