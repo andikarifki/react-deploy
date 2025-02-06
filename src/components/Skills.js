@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/Experience.css";
+import "./css/Skill.css";
 import postmanLogo from "../assets/images/postman.png";
 import {
   FaHtml5,
