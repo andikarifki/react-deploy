@@ -17,4 +17,19 @@
   .card-link:hover {
     text-decoration: none; /* Menghindari garis bawah saat hover */
   }
+
+  .card {
+    border: 2px solid #007bff; /* Mengatur warna border menjadi biru */
+    border-radius: 8px; /* Membuat border sedikit melengkung */
+    transition: transform 0.3s ease; /* Menambahkan transisi agar border lebih smooth saat ada interaksi */
+  }
+
+  .card-link {
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    color: inherit; /* Memastikan warna teks card tetap sama */
+  }
+  
+  .card-link:hover {
+    text-decoration: none; /* Menghindari garis bawah saat hover */
+  }
     
