@@ -1,14 +1,10 @@
-/* Container untuk ikon */
-.icon-container {
+.icon-links-container {
   display: flex;
-  flex-direction: column;
-  align-items: center; /* Center secara vertikal */
-  justify-content: center; /* Center secara horizontal */
-  padding: 50px;
-
+  gap: 15px; /* Jarak antar ikon */
+  justify-content: center; /* Membuat ikon-ikon berbaris di tengah */
+  align-items: center; /* Memastikan ikon-ikon tetap terpusat vertikal */
 }
 
-/* Styling umum untuk ikon */
 .icon {
   text-decoration: none; /* Menghapus underline */
   transition: transform 0.3s ease-in-out; /* Animasi smooth saat hover */
@@ -46,31 +42,3 @@
   word-wrap: break-word; /* Memaksa pembungkusan kata jika perlu */
 }
 
-/* Media query untuk perangkat dengan lebar maksimal 600px (smartphone) */
-@media (max-width: 600px) {
- .icon-container {
-    gap: 5px; /* Memberikan jarak antar heading dan ikon */
-  }
-
-  .heading-icon {
-    font-size: 155px; /* Ukuran font tidak terlalu kecil */
-    margin-bottom: 20px;
-  }
-}
-
-/* Media query untuk perangkat dengan lebar maksimal 400px (layar kecil seperti ponsel) */
-@media (max-width: 400px) {
-  .heading-icon {
-    font-size: 15px; /* Ukuran font masih tetap terlihat */
-    margin-bottom: 20px;
-  }
-}
-
-
-/* Container untuk ikon-ikon dengan jarak antar ikon */
-.icon-links-container {
-  display: flex;
-  gap: 15px; /* Jarak antar ikon */
-  justify-content: center; /* Membuat ikon-ikon berbaris di tengah */
-  align-items: center; /* Memastikan ikon-ikon tetap terpusat vertikal */
-}

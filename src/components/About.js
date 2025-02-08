@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import AOS from "aos"; // Import AOS untuk animasi
 import "aos/dist/aos.css"; // Import CSS AOS
 import profilePicture from "../assets/images/profiles.jpg"; // Path ke gambar
-import { FaTelegram } from "react-icons/fa";
 import "./css/About.css";
+import Button from "./Button";
 
 const About = () => {
   useEffect(() => {
@@ -34,28 +34,7 @@ const About = () => {
               interfaces.
             </span>
           </p>
-
-          {/* Link Container */}
-          <div
-            className="d-flex flex-column flex-sm-row justify-content-center justify-content-md-start gap-3 mt-4"
-            data-aos="fade-up"
-          >
-            <a
-              href="https://andikarifki.github.io/react-deploy/CV.pdf"
-              download
-              className="btn btn-dark fw-bold px-4 px-md-3 w-auto text-nowrap btn-responsive"
-            >
-              Download CV
-            </a>
-            <a
-              href="https://t.me/Andikarifki18"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary fw-bold align-items-center w-auto text-nowrap btn-responsive"
-            >
-              Contact Me <FaTelegram size={20} className="ms-2" />
-            </a>
-          </div>
+          <Button />
         </div>
 
         {/* Bagian Foto (Kanan) */}
