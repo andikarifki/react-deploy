@@ -1,0 +1,20 @@
+.shadow-effect {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek timbul */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transisi yang halus */
+  }
+  
+  /* Efek saat hover - Menambahkan bayangan lebih besar dan sedikit perbesaran */
+  .shadow-effect:hover {
+    transform: translateY(-5px); /* Geser sedikit ke atas */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Bayangan lebih besar saat hover */
+  }
+  
+  .card-link {
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    color: inherit; /* Memastikan warna teks card tetap sama */
+  }
+  
+  .card-link:hover {
+    text-decoration: none; /* Menghindari garis bawah saat hover */
+  }
+    

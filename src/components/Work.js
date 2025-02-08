@@ -10,12 +10,13 @@ const Work = () => {
   }, []);
 
   return (
-    <div className="container py-5">
+    <div className="container py-5 mt-11">
       {/* Judul di Kiri dengan Jarak Atas */}
       <h1
         className="work-title fs-1 fw-bold text-wrap"
         data-aos="fade-up"
         data-aos-anchor-placement="bottom-bottom"
+        style={{ marginTop: "200px" }} // Perbaiki penulisan CSS inline
       >
         Work Experience
       </h1>
