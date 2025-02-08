@@ -5,3 +5,40 @@
     padding: 0.5rem 1rem; /* Kurangi padding */
   }
 }
+
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect - Membesar dan sedikit berputar */
+.contact-button:hover {
+  transform: scale(1.1);
+  color: #0088cc; /* Menambahkan efek warna pada hover */
+}
+
+/* Animasi Goyang Meliuk untuk ikon Telegram */
+.contact-button .ms-2 {
+  animation: wiggle 2s ease-in-out infinite;
+}
+
+/* Keyframes untuk Animasi Goyang Meliuk */
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg) translateX(0); /* Posisi awal */
+  }
+  25% {
+    transform: rotate(10deg) translateX(-8px); /* Meliuk ke kiri */
+  }
+  50% {
+    transform: rotate(-10deg) translateX(8px); /* Meliuk ke kanan */
+  }
+  75% {
+    transform: rotate(8deg) translateX(-6px); /* Meliuk ke kiri lagi */
+  }
+  100% {
+    transform: rotate(0deg) translateX(0); /* Kembali ke posisi awal */
+  }
+}

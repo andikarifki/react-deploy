@@ -1,5 +1,6 @@
 import React from "react";
 import { FaTelegram } from "react-icons/fa";
+import "./css/About.css";
 
 export default function Button() {
   return (
@@ -11,7 +12,7 @@ export default function Button() {
         <a
           href="https://andikarifki.github.io/react-deploy/CV.pdf"
           download
-          className="btn btn-dark fw-bold px-4 px-md-3 w-auto text-nowrap btn-responsive"
+          className="contact-button btn btn-dark fw-bold px-4 px-md-3 w-auto text-nowrap btn-responsive"
         >
           Download CV
         </a>
@@ -19,7 +20,7 @@ export default function Button() {
           href="https://t.me/Andikarifki18"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn btn-primary fw-bold align-items-center w-auto text-nowrap btn-responsive"
+          className="contact-button btn btn-primary fw-bold"
         >
           Contact Me <FaTelegram size={20} className="ms-2" />
         </a>
