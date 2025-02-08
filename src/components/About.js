@@ -43,7 +43,7 @@ const About = () => {
             <a
               href="https://andikarifki.github.io/react-deploy/CV.pdf"
               download
-              className="btn btn-dark fw-bold px-4"
+              className="btn btn-dark fw-bold px-4 px-md-3 w-auto text-nowrap btn-responsive"
             >
               Download CV
             </a>
@@ -51,9 +51,9 @@ const About = () => {
               href="https://t.me/Andikarifki18"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-primary fw-bold align-items-center"
+              className="btn btn-primary fw-bold align-items-center w-auto text-nowrap btn-responsive"
             >
-              Contact Me <FaTelegram size={24} className="ms-2" />
+              Contact Me <FaTelegram size={20} className="ms-2" />
             </a>
           </div>
         </div>

@@ -2,7 +2,7 @@
   font-family: "Poppins", sans-serif; /* Gunakan font modern */
   font-size: 1.8rem; /* Sesuaikan ukuran */
   font-weight: bold;
-  color: #3b3b3b; /* Warna menarik */
+  color: #000000; /* Warna menarik */
   text-transform: uppercase; /* Huruf besar semua */
   letter-spacing: 1.5px; /* Spasi antar huruf */
 }
@@ -18,7 +18,7 @@
   display: block;
   width: 100%;
   height: 3px;
-  background-color: black;
+  background-color: rgb(209, 154, 154);
   position: absolute;
   bottom: 0;
   left: 0;
