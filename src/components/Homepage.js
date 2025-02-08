@@ -12,9 +12,9 @@ function Homepage() {
     <>
       <Header />
       <About />
-      <Skills />
       <Portfolio />
       <Work />
+      <Skills />
       <Footer />
     </>
   );
