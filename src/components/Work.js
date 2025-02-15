@@ -50,7 +50,7 @@ const Work = () => {
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
           >
-            <h2 className="fs-3 fw-semibold text-break custom-heading">
+            <h2 className="fs-3 fw-semibold text-break">
               Software Programmer | Department of Public Works, Housing and
               Energy, Mineral Resources
             </h2>
